@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e839a6c4-eaaf-44d3-8bc6-6b2c0de0899a" name="Default Changelist" comment="" />
+    <list default="true" id="e839a6c4-eaaf-44d3-8bc6-6b2c0de0899a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/event/manager/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/event/manager/repository/CategoryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/event/manager/controller/CategoryControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/manager/resource/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/manager/resource/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/manager/resource/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/manager/resource/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +26,20 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xf9xZ5gX0C2bptaYMsXdFzpkyJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,11 +47,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.event.manager.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="EventManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -60,11 +98,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581426529030</updated>
-      <workItem from="1581426533608" duration="454000" />
+      <workItem from="1581426533608" duration="7728000" />
     </task>
+    <task id="LOCAL-00001" summary="added resources">
+      <created>1581432866685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581432866685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="added resources" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1864" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581506920989">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1864" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506920989" />
+    <state x="2213" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1581505141963">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2213" y="244" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581505141963" />
+    <state x="314" y="43" key="CommitChangelistDialog2" timestamp="1581432866354">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="314" y="43" key="CommitChangelistDialog2/0.23.1440.835@0.23.1440.835" timestamp="1581432866354" />
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1581506622223">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506622223" />
+    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1581506622222">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.0.center/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506622222" />
+    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1581506622221">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.0.left/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506622221" />
+    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1581506622222">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.0.right/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506622222" />
+    <state width="1878" height="269" key="GridCell.Tab.1.bottom" timestamp="1581506622225">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.1.bottom/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506622225" />
+    <state width="1878" height="269" key="GridCell.Tab.1.center" timestamp="1581506622224">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.1.center/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506622224" />
+    <state width="1878" height="269" key="GridCell.Tab.1.left" timestamp="1581506622223">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.1.left/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506622223" />
+    <state width="1878" height="269" key="GridCell.Tab.1.right" timestamp="1581506622224">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.1.right/0.23.1440.835/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581506622224" />
+    <state x="2157" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581504448583">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2157" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.836/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581504448583" />
   </component>
 </project>
