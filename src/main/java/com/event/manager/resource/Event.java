@@ -13,8 +13,7 @@ public class Event {
     public Event() {
     }
 
-    public Event(Long id, String name) {
-        this.id = id;
+    public Event(String name) {
         this.name = name;
     }
 
