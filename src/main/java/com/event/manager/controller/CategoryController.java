@@ -21,10 +21,16 @@ public class CategoryController {
         return "category";
     }
 
-    @PostMapping("/category")
+    @PostMapping("/category/add")
     public String addNewCategory(@RequestParam String name, Map<String, Object> model) {
         Category n = new Category(name);
         categoryRepo.save(n);
+        return getAll(model);
+    }
+
+    @PostMapping("/category/{id}/delete")
+    public String delete(@PathVariable Integer id, Map<String, Object> model) {
+        categoryRepo.deleteById(id);
         return getAll(model);
     }
 }

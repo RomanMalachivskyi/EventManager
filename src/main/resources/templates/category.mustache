@@ -6,17 +6,26 @@
 </head>
 <body>
     <div>
-        <form method="post">
+        <form action="/category/add" method="POST">
             <input type="text" name="name" placeholder="Введіть назву категорії" />
             <button type="submit">Добавити</button>
         </form>
     </div>
-    <div>Список категорій</div>
-    {{#category}}
+    <div>Список категорій:</div>
     <div>
-        <b>{{id}}</b>
-        <span>{{name}}</span>
+        <table>
+            {{#category}}
+            <tr>
+                <th><b>{{id}}</b></th>
+                <th>{{name}}</th>
+                <th>
+                    <form action="/category/{{id}}/delete" method="POST">
+                        <input type="submit" value="Remove" />
+                    </form>
+                </th>
+            </tr>
+            {{/category}}
+        </table>
     </div>
-    {{/category}}
 </body>
 </html>
