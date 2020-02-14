@@ -6,24 +6,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 @Controller
-@RequestMapping(path = "/category")
 public class CategoryController {
 
     @Autowired
     CategoryRepo categoryRepo;
 
-    @GetMapping(path="/all")
-    public @ResponseBody Iterable<Category> getAllUsers() {
-        return categoryRepo.findAll();
+    @GetMapping("/category")
+    public String getAll(Map<String, Object> model) {
+        Iterable<Category> categories = categoryRepo.findAll();
+        model.put("category", categories);
+        return "category";
     }
 
-    @PostMapping(path="/add")
-    public @ResponseBody String addNewUser (@RequestParam String name) {
+    @PostMapping("/category")
+    public String addNewCategory(@RequestParam String name, Map<String, Object> model) {
         Category n = new Category(name);
         categoryRepo.save(n);
-        return "Saved";
+        return getAll(model);
     }
-
-
 }
