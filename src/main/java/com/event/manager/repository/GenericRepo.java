@@ -1,9 +1,9 @@
 package com.event.manager.repository;
 
-import com.event.manager.resource.Category;
+import com.event.manager.resource.Resource;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CategoryRepo extends GenericRepo<Category> {
+public interface GenericRepo <O extends Resource> extends CrudRepository<O, Integer> {
 }

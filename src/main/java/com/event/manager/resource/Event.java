@@ -3,10 +3,10 @@ package com.event.manager.resource;
 import javax.persistence.*;
 
 @Entity
-public class Event {
+public class Event implements Resource{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Integer id;
     @Column(unique = true, nullable = false)
     private String name;
 
@@ -17,11 +17,13 @@ public class Event {
         this.name = name;
     }
 
-    public Long getId() {
+    @Override
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    @Override
+    public void setId(Integer id) {
         this.id = id;
     }
 

@@ -3,7 +3,7 @@ package com.event.manager.resource;
 import javax.persistence.*;
 
 @Entity
-public class Category {
+public class Category implements Resource{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
@@ -17,10 +17,12 @@ public class Category {
         this.name = name;
     }
 
+    @Override
     public Integer getId() {
         return id;
     }
 
+    @Override
     public void setId(Integer id) {
         this.id = id;
     }
